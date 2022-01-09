@@ -1,0 +1,5 @@
+### Failure in: 0:1:Valida Mapa 02
+tests/Fase1.hs:34
+expected: False
+ but got: True
+Cases: 22  Tried: 22  Errors: 0  Failures: 1

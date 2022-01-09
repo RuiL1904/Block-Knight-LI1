@@ -1,0 +1,307 @@
+### Failure in: 0:1:Movimento Trepar no Jogo 02
+tests/Fase1.hs:34
+expected:        
+    C X
+    > X
+P X C X
+XXXXXXX
+ but got:        
+    C X
+    < X
+P X C X
+XXXXXXX
+### Failure in: 0:3:Movimento Trepar para cima bloco
+tests/Fase1.hs:34
+expected:        
+  X   X
+  <   X
+P X   X
+XXXXXXX
+ but got:        
+  X   X
+  >   X
+P X   X
+XXXXXXX
+### Failure in: 0:6:Movimento Trepar para Oeste para cima de Caixa
+tests/Fase1.hs:34
+expected:        
+      X
+    > X
+P X C X
+XXXXXXX
+ but got:        
+      X
+    < X
+P X C X
+XXXXXXX
+### Failure in: 0:7:Movimento Trepar para Este para cima de Caixa
+tests/Fase1.hs:34
+expected:        
+      X
+    < X
+P X C X
+XXXXXXX
+ but got:        
+      X
+    > X
+P X C X
+XXXXXXX
+### Failure in: 0:8:Movimento Trepar para Oeste para cima de Caixa com Caixa
+tests/Fase1.hs:34
+expected:        
+    C X
+    > X
+P X C X
+XXXXXXX
+ but got:        
+    C X
+    < X
+P X C X
+XXXXXXX
+### Failure in: 0:9:Movimento Trepar para Este para cima de Caixa com Caixa
+tests/Fase1.hs:34
+expected:        
+    C X
+    < X
+P X C X
+XXXXXXX
+ but got:        
+    C X
+    > X
+P X C X
+XXXXXXX
+### Failure in: 0:11:Movimento Trepar para Oeste para entre blocos
+tests/Fase1.hs:34
+expected:        
+  X   X
+  >   X
+P X   X
+XXXXXXX
+ but got:        
+  X   X
+  <   X
+P X   X
+XXXXXXX
+### Failure in: 0:21:Movimento AndarDireita contra bloco
+tests/Fase1.hs:34
+expected:        
+  X   X
+      X
+P >   X
+XXXXXXX
+ but got:        
+  X   X
+      X
+P>X   X
+XXXXXXX
+### Failure in: 0:23:Movimento larga Caixa
+tests/Fase1.hs:34
+expected:        
+      X
+  X   X
+P X < X
+XXXXXXX
+       
+      X
+  X   X
+P XC  X
+XXXXXXX
+ but got:        
+      X
+  X   X
+P XC< X
+XXXXXXX
+### Failure in: 0:27:Movimento levanta Caixa
+tests/Fase1.hs:34
+expected:  C X  
+P>C   
+XXXXXX
+   X  
+P     
+XXXXXX
+ but got:  C X  
+P>    
+XXXXXX
+### Failure in: 0:29:Movimento larga Caixa entre blocos
+tests/Fase1.hs:34
+expected:        
+  X   X
+      X
+P X<  X
+XXXXXXX
+       
+  X   X
+      X
+P C   X
+XXXXXXX
+ but got:        
+  X   X
+  C   X
+P X<  X
+XXXXXXX
+### Failure in: 0:30:Movimento larga Caixa
+tests/Fase1.hs:34
+expected:        
+  X   X
+      X
+P X>  X
+XXXXXXX
+       
+  X   X
+      X
+P X C X
+XXXXXXX
+ but got:        
+  X   X
+      X
+P X>C X
+XXXXXXX
+### Failure in: 0:32:Movimento tenta largar Caixa em cima de Porta Oeste
+tests/Fase1.hs:34
+expected:        
+      X
+      X
+P<X C X
+XXXXXXX
+       
+      X
+      X
+C X C X
+XXXXXXX
+ but got:        
+      X
+ C    X
+P<X C X
+XXXXXXX
+### Failure in: 0:33:Movimento tenta largar Caixa em cima de Porta Este
+tests/Fase1.hs:34
+expected:                     
+                    
+                    
+                    
+                    
+    X       X       
+>P  X   X C X  C    
+XXXXXXXXXXXXXXXXXXXX
+                    
+                    
+                    
+                    
+                    
+    X       X       
+ C  X   X C X  C    
+XXXXXXXXXXXXXXXXXXXX
+ but got:                     
+                    
+                    
+                    
+                    
+C   X       X       
+>P  X   X C X  C    
+XXXXXXXXXXXXXXXXXXXX
+### Failure in: 0:34:Movimento largar Caixa para baixo de Porta
+tests/Fase1.hs:34
+expected:         
+  <    X
+ PX   CX
+  X  CCX
+XXXXXXXX
+        
+       X
+ PX   CX
+ CX  CCX
+XXXXXXXX
+ but got:         
+  <    X
+ PX   CX
+ CX  CCX
+XXXXXXXX
+### Failure in: 0:36:Movimento levanta Caixa
+tests/Fase1.hs:34
+expected:        
+      X
+P    CX
+  X C<X
+XXXXXXX
+       
+      X
+P     X
+  X   X
+XXXXXXX
+ but got:        
+      X
+P    CX
+  X  <X
+XXXXXXX
+### Failure in: 0:38:Resolve Jogo 07
+tests/Fase1.hs:34
+expected:        
+      X
+PC    X
+ <X C X
+XXXXXXX
+ but got:        
+      X
+<     X
+C X C X
+XXXXXXX
+### Failure in: 0:39:Resolve Jogo 03
+tests/Fase1.hs:34
+expected: X                  X
+X                  X
+X                  X
+X                  X
+X                  X
+X   X       X      X
+XP  X   X C X< C   X
+XXXXXXXXXXXXXXXXXXXX
+X                  X
+X                  X
+X                  X
+X                  X
+X                  X
+X   X       X      X
+XP  X   X C X      X
+XXXXXXXXXXXXXXXXXXXX
+X                  X
+X                  X
+X                  X
+X                  X
+X                  X
+X   X       X      X
+XP  X   X C X  C   X
+XXXXXXXXXXXXXXXXXXXX
+X                  X
+X                  X
+X                  X
+X                  X
+X                  X
+X   X       X      X
+XP  X   X C X      X
+XXXXXXXXXXXXXXXXXXXX
+ but got: X                  X
+X                  X
+X                  X
+X                  X
+X                  X
+X   X       X      X
+X<  XC  X   XC     X
+XXXXXXXXXXXXXXXXXXXX
+### Failure in: 0:40:Passear no Jogo 09
+tests/Fase1.hs:34
+expected:         
+       X
+ PX   CX
+< X  CCX
+XXXXXXXX
+        
+       X
+ PX   CX
+C X  CCX
+XXXXXXXX
+ but got:         
+       X
+CPX   CX
+< X  CCX
+XXXXXXXX
+Cases: 41  Tried: 41  Errors: 0  Failures: 19

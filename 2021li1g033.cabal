@@ -5,6 +5,7 @@ version:            0.1.0.0
 library
     exposed-modules:
         LI12122
+        Utils
         Tarefa1_2021li1g033
         Tarefa2_2021li1g033
         Tarefa3_2021li1g033

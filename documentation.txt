@@ -1,0 +1,59 @@
+2021li1g033-0.1.0.0: unregistering (local file changes: 2021li1g033.cabal src/LI12122.hs src/Niveis.hs src/Tarefa1_2021li1g033.hs src/Tarefa2_2021li1g033...)
+2021li1g033> configure (lib)
+Configuring 2021li1g033-0.1.0.0...
+2021li1g033> build (lib)
+Preprocessing library for 2021li1g033-0.1.0.0..
+Building library for 2021li1g033-0.1.0.0..
+[1 of 7] Compiling LI12122
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:27:34: error:
+    Not in scope: type constructor or class ‘Generic’
+   |
+27 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                  ^^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:27:43: error:
+    Not in scope: type constructor or class ‘NFData’
+   |
+27 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                           ^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:35:34: error:
+    Not in scope: type constructor or class ‘Generic’
+   |
+35 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                  ^^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:35:43: error:
+    Not in scope: type constructor or class ‘NFData’
+   |
+35 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                           ^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:43:34: error:
+    Not in scope: type constructor or class ‘Generic’
+   |
+43 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                  ^^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:43:43: error:
+    Not in scope: type constructor or class ‘NFData’
+   |
+43 |   deriving (Show, Read, Eq, Ord, Generic, NFData)
+   |                                           ^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:50:23: error:
+    Not in scope: type constructor or class ‘Generic’
+   |
+50 |   deriving (Read, Eq, Generic, NFData)
+   |                       ^^^^^^^
+
+/home/nelson/Documents/LI1/projectos/2021li1g033/src/LI12122.hs:50:32: error:
+    Not in scope: type constructor or class ‘NFData’
+   |
+50 |   deriving (Read, Eq, Generic, NFData)
+   |                                ^^^^^^
+
+--  While building package 2021li1g033-0.1.0.0 (scroll up to its section to see the error) using:
+      /home/nelson/.stack/setup-exe-cache/x86_64-linux-tinfo6/Cabal-simple_mPHDZzAJ_3.4.0.0_ghc-9.0.1 --builddir=.stack-work/dist/x86_64-linux-tinfo6/Cabal-3.4.0.0 build lib:2021li1g033 --ghc-options ""
+    Process exited with code: ExitFailure 1

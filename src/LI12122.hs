@@ -15,9 +15,6 @@ module LI12122 (
   Jogo(..) , Jogador(..) , Movimento(..)
   ) where
 
-import GHC.Generics
-import Control.DeepSeq
-
 -- | Par de coordenadas de uma posição no 'Mapa'.
 type Coordenadas = (Int, Int)
 
